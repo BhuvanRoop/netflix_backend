@@ -3,3 +3,4 @@ Werkzeug
 pandas
 numpy
 Gunicorn
+flask-cors
