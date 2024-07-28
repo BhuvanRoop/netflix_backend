@@ -4,4 +4,4 @@ pandas
 numpy
 Gunicorn
 flask-cors
-requests
+
