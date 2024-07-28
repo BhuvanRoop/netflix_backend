@@ -1,7 +1,6 @@
 Flask
 Werkzeug
 pandas
-numpy
 Gunicorn
 flask-cors
 
