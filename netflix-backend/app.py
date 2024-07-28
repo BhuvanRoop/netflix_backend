@@ -6,6 +6,8 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app)
+with open("model.py") as file:
+    exec(file.read())
 movies_dict= pickle.load(open('movies_dict.pkl', 'rb'))
 df=pd.DataFrame(movies_dict)
 overall_similarity=pickle.load(open('overall_similarity.pkl', 'rb'))
