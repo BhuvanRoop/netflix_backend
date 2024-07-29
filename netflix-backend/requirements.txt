@@ -1,6 +1,4 @@
 Flask
-Werkzeug
 pandas
 Gunicorn
 flask-cors
-
