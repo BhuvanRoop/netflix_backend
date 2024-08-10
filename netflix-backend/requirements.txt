@@ -4,3 +4,4 @@ Gunicorn
 flask-cors
 requests
 scikit-learn
+nltk
